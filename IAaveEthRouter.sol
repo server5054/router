@@ -121,7 +121,7 @@ contract RouterV2 {
         return (keccak256(abi.encodePacked((a))) ==
             keccak256(abi.encodePacked((b))));
     }
-    function uniswapSwapAddress() public pure returns () {
+    function uniswapSwapAddress() public pure returns (address) {
         return 0x21D24986E3Dc9eDd061CE264b4746e2C524C8939;
     }
 
